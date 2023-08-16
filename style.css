@@ -1,13 +1,14 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #f5f5f5;
+  background-color: #411a1a;
   text-align: center;
   margin: 0;
   padding: 0;
+  margin-top: 300px;
 }
 
 h1 {
-  color: #e74c3c;
+  color: #0b5196;
   margin-top: 20px;
 }
 
@@ -17,6 +18,13 @@ h1 {
   align-items: center;
   margin-top: 30px;
   gap: 20px;
+}
+
+#your-choice, #computer-choice {
+  width: 70px;
+  height: 70px;
+  border: solid 1px #999;
+
 }
 
 .player {
@@ -75,4 +83,15 @@ h1 {
   margin-top: 30px;
   font-size: 20px;
   color: #e74c3c;
+}
+
+.reset{
+  background-color: rgb(127, 21, 21);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: solid;
+  margin: 4px 2px;
+  cursor: pointer;
 }
