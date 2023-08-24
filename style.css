@@ -1,5 +1,5 @@
 body {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -44,7 +44,8 @@ h1:hover {
   gap: 20px;
 }
 
-#your-choice, #computer-choice {
+#your-choice,
+#computer-choice {
   width: 70px;
   height: 70px;
   border: solid 3px #999;
@@ -102,7 +103,7 @@ h2 {
   font-weight: bold;
 }
 
-.reset{
+.reset {
   background-color: #3498db;
   border: none;
   color: white;
@@ -118,17 +119,18 @@ img {
   height: 1.2em;
 }
 
-#user-score, #computer-score {
+#user-score,
+#computer-score {
   color: rgb(148, 41, 41);
   font-size: 1.5em;
   font-weight: bold;
 }
 
 .choice-button {
-  margin-top: 20px; 
+  margin-top: 20px;
 }
 
 .winner {
   font-size: 1.5em;
-  font-weight: bold; 
+  font-weight: bold;
 }

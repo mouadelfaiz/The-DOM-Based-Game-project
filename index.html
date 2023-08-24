@@ -1,53 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-  <title>Rock Paper Scissors</title>
-  <link rel="stylesheet" href="style.css">
-  <script defer src="scripte.js"></script>
-</head>
-<body>
-  <nav class="menu">
-    <ul>
-      <li>Rock <img src="./images/rock.jpg"> Paper <img src="./images/paper.jpg"> Scissors <img src="./images/scissors.png"></li>
-      <li><button class="reset" onclick="window.location.reload();">Restart</button></li>
-    </ul>
-  </nav>
-  <div class="game-container">
-    <h1>Rock Paper Scissors</h1>
-    <div class="winner"></div>
-    <div class="result">
-      <p>Make your choice! Players who score 10 point wins the game</p>
-    </div>
-    <div>
-      <p id="user-score"></p>
-      <p id="computer-score"></p>
-    </div>
-    <div class="choices">
-      <div class="game">
-        <div>
-          <h2>You</h2>
-          <div id="your-choice"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="scripte.js"></script>
+  </head>
+  <body>
+    <nav class="menu">
+      <ul>
+        <li>
+          Rock <img src="./images/rock.jpg" /> Paper
+          <img src="./images/paper.jpg" /> Scissors
+          <img src="./images/scissors.png" />
+        </li>
+        <li>
+          <button class="reset" onclick="window.location.reload();">
+            Restart
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <div class="game-container">
+      <h1>Rock Paper Scissors</h1>
+      <div class="winner"></div>
+      <div class="result">
+        <p>Make your choice! Players who score 10 point wins the game</p>
+      </div>
+      <div>
+        <p id="user-score"></p>
+        <p id="computer-score"></p>
+      </div>
+      <div class="choices">
+        <div class="game">
+          <div>
+            <h2>You</h2>
+            <div id="your-choice"></div>
+          </div>
+          <div class="vs">vs</div>
+          <div>
+            <h2>Computer</h2>
+            <div id="computer-choice"></div>
+          </div>
         </div>
-        <div class="vs">vs</div>
-        <div>
-          <h2>Computer</h2>
-          <div id="computer-choice"></div>
+        <div class="choice-button">
+          <button class="choice" id="Rock">&#9994;</button>
+          <button class="choice" id="Paper">&#9995;</button>
+          <button class="choice" id="Scissors">&#9996;</button>
         </div>
       </div>
-      <div class="choice-button">
-        <button class="choice" id="Rock">&#9994;</button>
-        <button class="choice" id="Paper">&#9995;</button>
-        <button class="choice" id="Scissors">&#9996;</button>
-      </div>
     </div>
-    
-   
-    
-</div>
-</body>
+  </body>
 </html>
